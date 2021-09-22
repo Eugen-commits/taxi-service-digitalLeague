@@ -24,4 +24,12 @@ public class Car {
         this.model = model;
         this.number = number;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "model='" + model + '\'' +
+                ", number='" + number + '\'' +
+                '}';
+    }
 }
